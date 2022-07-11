@@ -1,0 +1,88 @@
+.game-header{
+    height: 396px;
+    background-image: url(../img/product-section-bg.jpg);
+}
+/* 产品简介 */
+.product{
+    overflow: hidden;
+}
+.product:nth-child(odd){
+    background: #1a2a5b;
+}
+.product:nth-child(even){
+    background: #e3f1fe;
+}
+.product-center{
+    width: 1020px;
+    margin: 150px auto;
+    padding-bottom: 50px;
+}
+.introduction-left{
+    float: left;
+}
+.introduction-right{
+    float: right;
+}
+/* 《Monsters League》 */
+.product-img{
+    padding-bottom: 35px;
+}
+.product-text{
+    width: 385px;
+    color: #FFFFFF;
+}
+.product-text h3{
+    font-weight: normal;
+}
+.product-text p{
+    text-indent: 2em;
+    line-height: 25px;
+    margin-top: 62px;
+    margin-bottom: 20px;
+}
+.product-text button{
+    background: #1a2a5b;
+    width: 125px;
+    height: 40px;
+    outline:none;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.product-text button img{
+    float: right;
+    margin-top: 8px;
+    margin-right: 18px;
+    margin-left: -9px;
+}
+/* 《无极游戏网 */
+#product-top{
+    margin: 75px auto;
+}
+#font-color{
+    color: black;
+    margin-top: 50px;
+}
+#font-color button{
+    background: #e3f1fe;
+    border-color: black;
+    color: black;
+    margin-right: 10px;
+}
+#font-color .down{
+    width: 150px;
+    margin-bottom: 10px;
+}
+/* 《超级挑战100层 */
+#text-color{
+    color: black;
+}
+#text-color button{
+    background: #e3f1fe;
+    border-color: black;
+    color: black;
+    margin-right: 10px;
+}

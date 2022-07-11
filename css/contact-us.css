@@ -1,0 +1,29 @@
+.contact-header{
+    height: 386px;
+    background-image: url(../img/contact-section-top.jpg);
+}
+.contact-botton{
+    height: 471px;
+    background-image: url(../img/contact-section-bottom.jpg);
+}
+.contact-center{
+    width: 900px;
+    margin: 0 auto;
+}
+.contact-ul{
+    float: left;
+    width: 292px;
+    margin-top: 200px;
+}
+.contact-ul li{
+    width: 292px;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+.contact-ul span{
+    margin-left: 15px;
+}
+.bg{
+    height: 100px;
+    background: #100a16;
+}

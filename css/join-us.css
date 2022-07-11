@@ -1,0 +1,141 @@
+.join-header{
+    height: 396px;
+    background: url(../img/recruit-scetion-bg.jpg);
+}
+.join-bg{
+    height: 663px;
+    background-image: url(../img/recruit-section-welfare.jpg);
+}
+/* 侧边锚点导航 */
+.join-point{
+    float: left;
+    width: 150px;
+    margin-top: 120px;
+}
+.point-item{
+    display: inline-block;
+    width: 146px;
+    height: 50px;
+    line-height: 33px;
+    text-align: center;
+    font-size: 22px;
+}
+.point-li:hover{
+    background: #226c9b;
+}
+/* 选择高亮 */
+.point-ativan{
+    background: #226c9b;
+}
+.point-li a{
+    display: inline-block;
+    padding: 7px 25px 0 25px;
+    color: #060330;
+}
+.point-img{
+    float: left;
+    margin-right: 10px;
+}
+.point-span{
+    float: left;
+    display: inline-table;
+    height: 33px;
+    line-height: 33px;
+    font-size: 22px;
+    margin-right: 7px;
+}
+/* 员工福利 */
+.join-right{
+    float: right;
+}
+.welfare{
+    float: left;
+    margin-top: 100px;
+    margin-left: 50px;
+    color: #FFFFFF;
+}
+.welfare-title{
+    text-align: center;
+}
+.welfare-title h1{
+    font-weight: normal;
+}
+.welfare ol{
+    float: left;
+    margin: 67px;
+}
+.welfare ol li{
+    padding: 6px;
+}
+/* 联系方式 */
+.details h1{
+    margin-bottom: 30px;
+}
+.details p{
+    margin-top: 8px;
+}
+/* 详情 */
+.details-bg:nth-child(odd){
+    overflow: hidden;
+    background-color: #e3f1fe;
+}
+.details-bg:nth-child(even){
+    overflow: hidden;
+    background-color: #38a1e3;
+}
+.details-text{
+    width: 704px;
+    margin: 0 auto;
+}
+.details-title{
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.details-title h2{
+    float: left;
+}
+.details-title span{
+    float: left;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.iwantu{
+    margin-left: -15px;
+}
+/* 展开详情 */
+.more{
+    float: right;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+.details-bg:nth-child(even) .more{
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.more-text{
+    width: 46px;
+    margin: 8px auto;
+}
+.more-text h4{
+    font-weight: normal;
+}
+/* 职位描述 */
+.description{
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+}
+.description ol{
+    margin-left: 17px;
+    margin-top: 15px;
+}
+.description ol li{
+    margin-top: 8px;
+    line-height: 30px;
+}
+
